@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlitterBaum.Server", "GlitterBaum\Server\GlitterBaum.Server.csproj", "{FB8E1837-DD9E-4639-9547-CA4C66D06084}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlitterBaum.Server", "GlitterBaum\Server\GlitterBaum.Server.csproj", "{FB8E1837-DD9E-4639-9547-CA4C66D06084}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlitterBaum.Client", "GlitterBaum\Client\GlitterBaum.Client.csproj", "{26610BF0-E401-4E22-A94F-94423878B3BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlitterBaum.Client", "GlitterBaum\Client\GlitterBaum.Client.csproj", "{26610BF0-E401-4E22-A94F-94423878B3BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlitterBaum.Shared", "GlitterBaum\Shared\GlitterBaum.Shared.csproj", "{CCEB7633-31BB-44C1-816E-11770C6FCFCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlitterBaum.Shared", "GlitterBaum\Shared\GlitterBaum.Shared.csproj", "{CCEB7633-31BB-44C1-816E-11770C6FCFCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
