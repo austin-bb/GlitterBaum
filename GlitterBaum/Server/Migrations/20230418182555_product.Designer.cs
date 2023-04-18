@@ -3,6 +3,7 @@ using GlitterBaum.Server.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GlitterBaum.Server.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20230418182555_product")]
+    partial class product
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -99,10 +102,10 @@ namespace GlitterBaum.Server.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            Description = "",
-                            ImgUrl = "Stranger-Things-Ornament.jpg",
+                            Description = "The Hitchhiker's Guide to the Galaxy[note 1] (sometimes referred to as HG2G,[1] HHGTTG,[2] H2G2,[3] or tHGttG) is a comedy science fiction franchise created by Douglas Adams. Originally a 1978 radio comedy broadcast on BBC Radio 4, it was later adapted to other formats, including novels, stage shows, comic books, a 1981 TV series, a 1984 text-based computer game, and 2005 feature film.",
+                            ImgUrl = "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-15/315995136_863068194706104_1965398170283550724_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=100&_nc_ohc=uE-QfNlESzgAX86jvbT&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=Mjk3MzI3NTg3OTA5NTU2OTY2OA%3D%3D.2-ccb7-5&oh=00_AfAbfkolXM0lY8qqlJCxExo46DqoQkxlGRLg0X0ikkNRsA&oe=64439F2B&_nc_sid=30a2ef",
                             Price = 9.99m,
-                            Title = "Stranger Things Ornament"
+                            Title = "The Hitchhiker's Guide to the Galaxy"
                         },
                         new
                         {
