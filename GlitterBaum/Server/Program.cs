@@ -2,6 +2,7 @@ global using GlitterBaum.Shared;
 global using Microsoft.EntityFrameworkCore;
 global using GlitterBaum.Server.Data;
 global using GlitterBaum.Server.Services.ProductService;
+global using GlitterBaum.Server.Services.CategoryService;
 using Microsoft.AspNetCore.ResponseCompression;
 
 
@@ -20,6 +21,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 var app = builder.Build();
 
